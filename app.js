@@ -1,3 +1,22 @@
+$(".nav-li").mouseenter(function(){
+	$("<audio></audio>").attr({ 
+		'src':'assets/'+'lightsaber.mp3', 
+		'volume':0.4,
+		'autoplay':'autoplay'
+	}).appendTo("body");
+});
+
+
+const fadeOut = () => {
+    const loaderWrapper = document.querySelector('loader')
+    loaderWrapper.classList.add('fade');
+}
+// window.addEventListener('load', fadeOut);
+
+  $(window).on('load', function (fadeOut) {
+    $('.loader').hide();
+  }) 
+
 //intersection animation
 
 const articles = document.querySelectorAll(".article")

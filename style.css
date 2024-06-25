@@ -7,6 +7,11 @@
     Oxygen, "Ubuntu", Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.loader {
+  z-index: 99999;
+  background-color: #b2b3b9;
+}
+
 .socket {
   width: 200px;
   height: 200px;
