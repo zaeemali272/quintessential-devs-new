@@ -587,7 +587,7 @@
     transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
   }
   
-  .animated-button .text {
+  .animated-button .animated-text {
     position: relative;
     z-index: 1;
     transform: translateX(-12px);
@@ -608,7 +608,7 @@
     left: 16px;
   }
   
-  .animated-button:hover .text {
+  .animated-button:hover .animated-text {
     transform: translateX(12px);
   }
   
@@ -981,8 +981,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  height: 55px;
+  width: 55px;
   border: 1px solid #fff;
   border-radius: 15px;
   transition: all 0.3s;
@@ -1054,6 +1054,7 @@
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
+
 .user {
   display: flex;
   gap: 10px;
@@ -1068,12 +1069,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
+  color: #212121;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
 }
 .name {
   font-size: 17px;
   font-weight: 700;
-  color: #e6683c;
+  color: #dd0030;
 }
 .details {
   display: flex;
