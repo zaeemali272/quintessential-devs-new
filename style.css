@@ -8,6 +8,11 @@
     
 }
 
+html {
+  cursor: url('assets/cat-cursor\(1\).ico'), default;
+  
+}
+
 .loader {
   z-index: 99999;
   width: 100%;
