@@ -631,7 +631,7 @@
   border-radius: 10px;
   /* width: 35px; */
   height: 35px;
-  padding: 30px;
+  margin: 30px;
 }
 .tooltip {
   position: absolute;
